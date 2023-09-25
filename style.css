@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.but{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-top: 10px;
+}
+.but button{
+    margin-top: 10px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #008080;
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(58, 148, 58);
+}
+.post{
+    display: flex;
+    flex-direction: column;
+}
+.post span{
+    background-color: #f8f8f8;
+    margin: 14px 20px;
+    height: 60px;
+}
+.con{
+    background-color: rgb(148, 143, 143);
+}
